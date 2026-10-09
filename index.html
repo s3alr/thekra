@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>حصن المسلم | أذكار الصباح والمساء الصحيحة</title>
+<meta name="description" content="موقع أذكار الصباح والمساء الصحيحة بمصادرها من الكتب الستة وحصن المسلم، مع عداد وتتبع للتقدم">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="pattern"></div>
+  <div class="container hero-inner">
+    <div class="badge">﷽</div>
+    <h1>حصن المسلم</h1>
+    <p class="subtitle">أذكار الصباح والمساء الصحيحة بمصادرها ودرجة صحتها</p>
+    <div class="meta-row">
+      <div class="date-box">
+        <span id="hijriDate">—</span>
+        <small id="gregDate">—</small>
+      </div>
+      <div class="time-box">
+        <span id="suggested">—</span>
+        <small>الوقت المقترح الآن</small>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-filter="morning" role="tab">🌅 أذكار الصباح</button>
+      <button class="tab" data-filter="evening" role="tab">🌙 أذكار المساء</button>
+      <button class="tab" data-filter="both" role="tab">📿 الأذكار المشتركة</button>
+      <button class="tab" data-filter="all" role="tab">📚 الكل</button>
+    </nav>
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="ابحث في الأذكار... مثال: الكرسي، الاستغفار">
+      </div>
+      <div class="btn-group">
+        <button id="toggleTheme" class="btn ghost" title="الوضع الليلي">🌙 ليلي</button>
+        <button id="fontPlus" class="btn ghost" title="تكبير الخط">أ+</button>
+        <button id="fontMinus" class="btn ghost" title="تصغير الخط">أ-</button>
+        <button id="resetAll" class="btn danger-ghost" title="تصفير التقدم">↺ تصفير</button>
+      </div>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-info">
+        <span id="progressText">0 / 0 مكتمل</span>
+        <span id="progressPct">0%</span>
+      </div>
+      <div class="progress-bar"><div id="progressFill"></div></div>
+      <p class="hint">اضغط على زر التسبيح لإنقاص العدد، ويُحفظ تقدمك تلقائياً في متصفحك</p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="info-strip">
+    <div class="info-card">
+      <strong>⏰ وقت الصباح</strong>
+      <span>من طلوع الفجر إلى طلوع الشمس، وقيل إلى الزوال</span>
+    </div>
+    <div class="info-card">
+      <strong>🌆 وقت المساء</strong>
+      <span>من صلاة العصر إلى غروب الشمس، وقيل إلى ثلث الليل</span>
+    </div>
+    <div class="info-card">
+      <strong>📖 المنهج</strong>
+      <span>اعتمدنا حصن المسلم مع التخريج من البخاري ومسلم وأصحاب السنن وتصحيح الألباني</span>
+    </div>
+  </section>
+
+  <div id="doaaBanner" class="doaa-banner hidden"></div>
+
+  <section id="cards" class="cards"></section>
+
+  <section class="sources">
+    <h2>📚 مصادر الأذكار ومنهج التوثيق</h2>
+    <ol>
+      <li><strong>صحيح البخاري</strong> (رقم 6306، 6405) — سيد الاستغفار، سبحان الله وبحمده.</li>
+      <li><strong>صحيح مسلم</strong> (2723، 2726، 2692، 2709) — أصبحنا وأصبح الملك، سبحان الله وبحمده عدد خلقه، أعوذ بكلمات الله التامات.</li>
+      <li><strong>سنن أبي داود</strong> (5072، 5088، 5090، 5069) — بسم الله الذي لا يضر، رضيت بالله رباً، اللهم عافني.</li>
+      <li><strong>سنن الترمذي</strong> (3529، 3390، 3388) — اللهم بك أصبحنا، اللهم فاطر السماوات.</li>
+      <li><strong>سنن النسائي وابن ماجه ومسند أحمد</strong> — آية الكرسي، المعوذات، أصبحنا على فطرة الإسلام.</li>
+      <li><strong>حصن المسلم للقحطاني</strong> بتحقيقات الشيخ الألباني في صحيح الترغيب والترهيب وصحيح الجامع.</li>
+    </ol>
+    <p class="note">⚠️ تنبيه: تجنبنا الأحاديث الضعيفة والموضوعة المنتشرة في بعض التطبيقات (مثل أدعية غير ثابتة بعدد معين بلا دليل). كل ذكر أدناه مذكور مع حكمه: صحيح / حسن / متفق عليه.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>صُمم لوجه الله — انسخ وانشر ولك الأجر إن شاء الله</p>
+    <p class="small">قال ﷺ: «مثل الذي يذكر ربه والذي لا يذكر ربه مثل الحي والميت» — متفق عليه</p>
+  </div>
+</footer>
+
+<button id="toTop" title="العودة للأعلى">↑</button>
+
+<script src="app.js"></script>
+</body>
+</html>
