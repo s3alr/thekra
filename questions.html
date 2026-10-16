@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أسئلة عن الأذكار | حصن المسلم</title>
+<meta name="description" content="30 سؤالاً وجواباً عن أذكار الصباح والمساء: أوقاتها وأعدادها وفضلها ومصادرها الصحيحة">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="pattern"></div>
+  <div class="container hero-inner">
+    <div class="badge">﷽</div>
+    <h1>أسئلة عن الأذكار</h1>
+    <p class="subtitle">30 سؤالاً وجواباً عن أذكار الصباح والمساء بأدلتها الصحيحة</p>
+    <nav class="site-nav" aria-label="تنقل الموقع">
+      <a href="index.html">🏠 الرئيسية</a>
+      <a href="questions.html" class="active">❓ أسئلة عن الأذكار</a>
+    </nav>
+    <div class="controls">
+      <div class="btn-group">
+        <button id="toggleTheme" class="btn ghost" title="الوضع الليلي">🌙 ليلي</button>
+        <button id="fontPlus" class="btn ghost" title="تكبير الخط">أ+</button>
+        <button id="fontMinus" class="btn ghost" title="تصغير الخط">أ-</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="info-strip">
+    <div class="info-card">
+      <strong>❓ لماذا هذه الصفحة؟</strong>
+      <span>جمعنا أكثر 30 سؤالاً شيوعاً عن الأذكار مع أجوبة مختصرة موثقة من الكتب الستة</span>
+    </div>
+    <div class="info-card">
+      <strong>🔍 كيف تستخدمها؟</strong>
+      <span>ابحث بكلمة، أو صفِّ حسب الموضوع، واضغط على أي سؤال لعرض الجواب والدليل</span>
+    </div>
+    <div class="info-card">
+      <strong>📖 المنهج</strong>
+      <span>لا نذكر إلا الثابت، وننبه على الضعيف المنتشر — كما في الصفحة الرئيسية</span>
+    </div>
+  </section>
+
+  <div class="faq-tools">
+    <input id="fsearch" class="fsearch" type="search" placeholder="ابحث في الأسئلة... مثال: الوقت، القضاء، النسيان">
+  </div>
+  <div class="faq-cats" role="tablist">
+    <button class="fcat active" data-cat="all">الكل (30)</button>
+    <button class="fcat" data-cat="time">⏰ الوقت</button>
+    <button class="fcat" data-cat="how">🔢 الكيفية والعدد</button>
+    <button class="fcat" data-cat="virtue">🌟 الفضل والثواب</button>
+    <button class="fcat" data-cat="missed">🤲 القضاء والحالات الخاصة</button>
+    <button class="fcat" data-cat="general">📚 أحكام عامة</button>
+  </div>
+  <p class="faq-count" id="faqCount">عرض 30 من 30 سؤالاً</p>
+
+  <section class="faq-list" id="faqList">
+
+    <details class="faq-item" data-cat="time">
+      <summary><span class="qnum">1</span> متى يبدأ وقت أذكار الصباح ومتى ينتهي؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">⏰ الوقت</span>
+        <p>يبدأ من طلوع الفجر الثاني (أذان الفجر)، والأفضل قبل طلوع الشمس. ومن فاته لعذر فله أن يقولها إلى الزوال (وقت الظهر) ويُرجى له الأجر.</p>
+        <div class="dalil"><strong>الدليل:</strong> عموم قوله تعالى ﴿وسبح بحمد ربك قبل طلوع الشمس وقبل غروبها﴾ [طه: 130]، وفتاوى ابن باز وابن عثيمين في امتداد وقتها للعذر.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="time">
+      <summary><span class="qnum">2</span> متى يبدأ وقت أذكار المساء ومتى ينتهي؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">⏰ الوقت</span>
+        <p>يبدأ من صلاة العصر، والأفضل قبل غروب الشمس. ومن فاته لعذر فله أن يقولها إلى ثلث الليل الأول، وقيل إلى منتصف الليل.</p>
+        <div class="dalil"><strong>الدليل:</strong> قوله تعالى ﴿وسبح بحمد ربك بالعشي والإبكار﴾ [غافر: 55]، وعمل السلف على قولها بعد العصر. انظر فتاوى اللجنة الدائمة.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="time">
+      <summary><span class="qnum">3</span> هل الأفضل قول الأذكار قبل الفجر أم بعده؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">⏰ الوقت</span>
+        <p>الأفضل بعد صلاة الفجر وقبل طلوع الشمس، لأن النبي ﷺ كان يقولها بعد الصبح كما في حديث «اللهم إني أسألك علماً نافعاً» الذي كان يقوله بعد صلاة الصبح.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه ابن ماجه (925) وصححه الألباني.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="time">
+      <summary><span class="qnum">4</span> هل يجوز قول أذكار الصباح بعد شروق الشمس؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">⏰ الوقت</span>
+        <p>نعم، من نسيها أو شُغل عنها فليقلها متى ذكرها ولو بعد الشروق، وله أجر الذكر العام، والأكمل المحافظة على وقتها.</p>
+        <div class="dalil"><strong>الدليل:</strong> قاعدة «من نام عن حزبه فقرأه بين صلاة الفجر وصلاة الظهر كُتب له كأنما قرأه من الليل» رواه مسلم (747) — قاس عليها العلماء قضاء الأذكار.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="time">
+      <summary><span class="qnum">5</span> هل تُقال أذكار المساء بعد المغرب أم قبل المغرب؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">⏰ الوقت</span>
+        <p>الأكمل قبل المغرب (بعد العصر). ومن قالها بعد المغرب أو العشاء لعذر أجزأه ذلك، ولا يُحرم نفسه الخير.</p>
+        <div class="dalil"><strong>الدليل:</strong> ظاهر أحاديث المساء مثل «أمسينا وأمسى الملك لله» رواه مسلم (2723) — والإمساء يتحقق بالليل كله.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="time">
+      <summary><span class="qnum">6</span> هل يجب الترتيب بين الأذكار؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">⏰ الوقت</span>
+        <p>لا يجب أي ترتيب؛ الترتيب في موقعنا وفي حصن المسلم للتعليم والحفظ فقط. قدّم ما شئت وأخّر ما شئت.</p>
+        <div class="dalil"><strong>الدليل:</strong> لم يثبت عن النبي ﷺ ترتيب جامع لها في مجلس واحد، بل وردت في أحاديث متفرقة.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="how">
+      <summary><span class="qnum">7</span> كم مرة تُقرأ آية الكرسي في الصباح والمساء؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🔢 الكيفية والعدد</span>
+        <p>مرة واحدة صباحاً ومرة واحدة مساءً. من قالها حين يمسي أُجير من الجن حتى يصبح، ومن قالها حين يصبح أُجير من الجن حتى يمسي.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه النسائي والطبراني وصححه الألباني في صحيح الترغيب (662).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="how">
+      <summary><span class="qnum">8</span> كم مرة تُقرأ سور الإخلاص والفلق والناس؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🔢 الكيفية والعدد</span>
+        <p>ثلاث مرات صباحاً وثلاث مرات مساءً، وقال ﷺ: «تكفيك من كل شيء».</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه أبو داود (5082) والترمذي (3575) وحسّنه الألباني.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="how">
+      <summary><span class="qnum">9</span> هل أقول «أصبحنا» صباحاً و«أمسينا» مساءً أم يجوز العكس؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🔢 الكيفية والعدد</span>
+        <p>تقول «أصبحنا وأصبح الملك لله» صباحاً، و«أمسينا وأمسى الملك لله» مساءً. وكذلك «بك أصبحنا» للصباح و«بك أمسينا» للمساء، و«أصبحنا على فطرة الإسلام» للصباح و«أمسينا» للمساء.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه مسلم (2723) والترمذي (3391) وأحمد (15360).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="how">
+      <summary><span class="qnum">10</span> ما عدد قول «سبحان الله وبحمده» و«لا إله إلا الله وحده لا شريك له»؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🔢 الكيفية والعدد</span>
+        <p>«سبحان الله وبحمده»: 100 مرة. «لا إله إلا الله وحده لا شريك له»: 10 مرات كحد أدنى (ومن زاد إلى 100 فأفضل وأعظم أجراً).</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه مسلم (2692) ومتفق عليه البخاري (3293) ومسلم (2691).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="how">
+      <summary><span class="qnum">11</span> هل يجب استحضار المعنى عند قول الأذكار؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🔢 الكيفية والعدد</span>
+        <p>الأكمل والأعظم أجراً أن تقولها بقلب حاضر تفهم معناها، ومن قالها بلسانه فقط فله أجر الذكر، لكن ثواب الخاشع المتدبر أعظم. كما في سيد الاستغفار «من قالها موقناً بها».</p>
+        <div class="dalil"><strong>الدليل:</strong> لفظ «موقناً بها» في البخاري (6306).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="how">
+      <summary><span class="qnum">12</span> هل تُقال الأذكار سراً أم جهراً؟ وهل تحريك اللسان شرط؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🔢 الكيفية والعدد</span>
+        <p>الأصل الإسرار مع تحريك اللسان والشفتين؛ فمجرد إمرار المعنى على القلب دون تلفظ لا يُعد ذكراً مشروعاً عند جمهور العلماء. والجهر جائز للتعليم أو لطرد النعاس دون إيذاء الآخرين.</p>
+        <div class="dalil"><strong>الدليل:</strong> قال ابن تيمية: الذكر المشروع ما تواطأ عليه القلب واللسان. وقوله تعالى ﴿واذكر ربك في نفسك تضرعاً وخيفة ودون الجهر﴾ [الأعراف: 205].</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="virtue">
+      <summary><span class="qnum">13</span> ما فضل سيد الاستغفار؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🌟 الفضل والثواب</span>
+        <p>«اللهم أنت ربي لا إله إلا أنت...» من قالها موقناً بها فمات من يومه أو ليلته دخل الجنة.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه البخاري (6306).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="virtue">
+      <summary><span class="qnum">14</span> ما فضل «بسم الله الذي لا يضر مع اسمه شيء»؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🌟 الفضل والثواب</span>
+        <p>من قالها ثلاثاً حين يصبح وحين يمسي لم تضره فجأة بلاء حتى يصبح أو يمسي.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه أبو داود (5088) والترمذي (3388) وصححه الألباني.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="virtue">
+      <summary><span class="qnum">15</span> ما فضل «رضيت بالله رباً» ثلاث مرات؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🌟 الفضل والثواب</span>
+        <p>من قالها حين يصبح وحين يمسي كان حقاً على الله أن يرضيه يوم القيامة.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه أبو داود (5072) وصححه الألباني.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="virtue">
+      <summary><span class="qnum">16</span> ما فضل «أعوذ بكلمات الله التامات من شر ما خلق»؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🌟 الفضل والثواب</span>
+        <p>تُقال ثلاث مرات في المساء، ومن قالها حين يمسي لم تضره حُمَة (لدغة ذات السم) تلك الليلة.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه مسلم (2709).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="virtue">
+      <summary><span class="qnum">17</span> ما فضل الصلاة على النبي ﷺ عشر مرات صباحاً ومساءً؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🌟 الفضل والثواب</span>
+        <p>من صلى عليه عشراً حين يصبح وعشراً حين يمسي أدركته شفاعته ﷺ يوم القيامة.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه الطبراني وحسّنه الألباني في صحيح الجامع (6357).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="virtue">
+      <summary><span class="qnum">18</span> ما فضل «حسبي الله لا إله إلا هو» سبع مرات؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🌟 الفضل والثواب</span>
+        <p>من قالها سبع مرات حين يصبح وحين يمسي كفاه الله ما أهمه من أمر الدنيا والآخرة.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه ابن السني وأبو داود (5081) وحسّنه ابن باز وصححه شعيب الأرناؤوط.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="missed">
+      <summary><span class="qnum">19</span> نسيت الأذكار حتى دخل وقت الصلاة التالية، ماذا أفعل؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🤲 القضاء والحالات الخاصة</span>
+        <p>قلها متى ذكرتها ولا تتركها؛ فالذكر خير على كل حال، وإن فات وقتها المستحب بقي أجر الذكر المطلق.</p>
+        <div class="dalil"><strong>الدليل:</strong> قوله ﷺ: «من نام عن حزبه أو عن شيء منه فقرأه فيما بين صلاة الفجر وصلاة الظهر كُتب له كأنما قرأه من الليل» رواه مسلم (747).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="missed">
+      <summary><span class="qnum">20</span> هل تقول الحائض والنفساء أذكار الصباح والمساء؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🤲 القضاء والحالات الخاصة</span>
+        <p>نعم، باتفاق العلماء؛ فالذكر جائز للحائض والنفساء والجنب، وإنما الممنوع الصلاة والصوم ومس المصحف والطواف.</p>
+        <div class="dalil"><strong>الدليل:</strong> كان النبي ﷺ «يذكر الله على كل أحيانه» رواه مسلم (373)، وقالت عائشة في الحائض: «تفعل كل ما يفعل الحاج غير الطواف» متفق عليه.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="missed">
+      <summary><span class="qnum">21</span> هل يجوز قول الأذكار أثناء المشي أو قيادة السيارة أو العمل؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🤲 القضاء والحالات الخاصة</span>
+        <p>نعم، يجوز في كل حال ما لم تكن في مكان يُكره فيه الذكر (كالحمام). والأفضل الجلوس والتدبر إن تيسر.</p>
+        <div class="dalil"><strong>الدليل:</strong> ﴿الذين يذكرون الله قياماً وقعوداً وعلى جنوبهم﴾ [آل عمران: 191].</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="missed">
+      <summary><span class="qnum">22</span> هل يشترط الوضوء لأذكار الصباح والمساء؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🤲 القضاء والحالات الخاصة</span>
+        <p>لا يشترط الوضوء؛ فيجوز قولها على غير طهارة، والوضوء أفضل وأكمل.</p>
+        <div class="dalil"><strong>الدليل:</strong> «كان النبي ﷺ يذكر الله على كل أحيانه» رواه مسلم (373).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="missed">
+      <summary><span class="qnum">23</span> هل يجوز قطع الأذكار للرد على الهاتف ثم إكمالها؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🤲 القضاء والحالات الخاصة</span>
+        <p>نعم، لا يشترط الموالاة بينها؛ فاقطع لحاجة ثم أكمل من حيث توقفت، ولا تعيد من البداية.</p>
+        <div class="dalil"><strong>الدليل:</strong> الأصل عدم اشتراط الموالاة إلا بدليل، ولم يرد دليل على وجوبها في الأذكار.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="missed">
+      <summary><span class="qnum">24</span> هل تُغني أذكار الصلاة عن أذكار الصباح والمساء؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">🤲 القضاء والحالات الخاصة</span>
+        <p>لا تُغني؛ فلكلٍّ وقتُه وسببُه. أذكار الصلاة دبر الصلوات، وأذكار الصباح والمساء في وقتها. ومن جمع بينهما فقد جمع خيراً كثيراً.</p>
+        <div class="dalil"><strong>الدليل:</strong> ثبت عن النبي ﷺ الأمران معاً في أحاديث مستقلة: أذكار دبر الصلاة (مسلم 597) وأذكار الصباح والمساء (مسلم 2723).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="general">
+      <summary><span class="qnum">25</span> ما الفرق بين أذكار الصباح وأذكار المساء؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">📚 أحكام عامة</span>
+        <p>أكثرها مشترك (آية الكرسي، المعوذات، سيد الاستغفار...). وينفرد الصباح بأدعية مثل «أصبحنا وأصبح الملك»، و«سبحان الله عدد خلقه»، و«اللهم إني أسألك علماً نافعاً». وينفرد المساء بـ«أمسينا وأمسى الملك» و«أعوذ بكلمات الله التامات» ثلاثاً.</p>
+        <div class="dalil"><strong>الدليل:</strong> راجع تبويب الصباح والمساء في صفحتنا الرئيسية مع تخريج كل ذكر.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="general">
+      <summary><span class="qnum">26</span> هل كل ما في تطبيقات الأذكار صحيح؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">📚 أحكام عامة</span>
+        <p>لا؛ تنتشر أدعية بأعداد معينة (مثل 40 مرة أو دعاء غير مأثور) لا أصل لها. القاعدة: لا تُخصَّص عبادة بعدد أو وقت إلا بدليل صحيح.</p>
+        <div class="dalil"><strong>الدليل:</strong> قال ﷺ: «من عمل عملاً ليس عليه أمرنا فهو رد» رواه مسلم (1718). وموقعنا يقتصر على الثابت مع درجته.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="general">
+      <summary><span class="qnum">27</span> ما حكم من زاد على العدد الوارد (مثل 100 بدل 10)؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">📚 أحكام عامة</span>
+        <p>الزيادة المطلقة مشروعة ومستحبة؛ فقد قال ﷺ في «سبحان الله وبحمده»: «إلا أحد قال مثل ما قال أو زاد عليه» (مسلم 2692). لكن لا تعتقد أن الزيادة هي السنة الراتبة، ولا تجعلها عادة لازمة تُنسب للشرع.</p>
+        <div class="dalil"><strong>الدليل:</strong> رواه مسلم (2692).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="general">
+      <summary><span class="qnum">28</span> هل الأفضل سرد كل الأذكار أم الاقتصار على بعضها؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">📚 أحكام عامة</span>
+        <p>الأكمل الإتيان بها كلها لمن قدر، ومن شقّ عليه فليقتصر على أمهاتها: آية الكرسي، المعوذات، سيد الاستغفار، «بسم الله الذي لا يضر»، «رضيت بالله رباً»، «سبحان الله وبحمده 100». فالقليل الدائم خير من الكثير المنقطع.</p>
+        <div class="dalil"><strong>الدليل:</strong> «أحب الأعمال إلى الله أدومها وإن قل» متفق عليه البخاري (6464) ومسلم (783).</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="general">
+      <summary><span class="qnum">29</span> ما مصادر الأذكار في هذا الموقع؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">📚 أحكام عامة</span>
+        <p>صحيح البخاري (6306، 6405)، صحيح مسلم (2723، 2726، 2692، 2709)، سنن أبي داود والترمذي والنسائي وابن ماجه، ومسند أحمد — مع تصحيحات الشيخ الألباني في صحيح الترغيب وصحيح الجامع، وأصل الجمع من حصن المسلم.</p>
+        <div class="dalil"><strong>الدليل:</strong> كل ذكر في الصفحة الرئيسية مذكور مع رقمه وحكمه: صحيح / حسن / متفق عليه.</div>
+      </div>
+    </details>
+
+    <details class="faq-item" data-cat="general">
+      <summary><span class="qnum">30</span> هل يجوز نشر هذه الأذكار وتعليمها للغير؟ <span class="qarrow">＋</span></summary>
+      <div class="faq-body">
+        <span class="faq-cat-tag">📚 أحكام عامة</span>
+        <p>نعم، بل هو مستحب ولك مثل أجر من عمل بها لا ينقص من أجورهم شيء. انسخ من موقعنا وانشر.</p>
+        <div class="dalil"><strong>الدليل:</strong> قال ﷺ: «من دل على خير فله مثل أجر فاعله» رواه مسلم (1893)، و«بلّغوا عني ولو آية» رواه البخاري (3461).</div>
+      </div>
+    </details>
+
+  </section>
+  <p class="faq-count" id="faqEmpty" style="display:none">لا توجد نتائج مطابقة — جرّب كلمة أخرى.</p>
+
+  <section class="sources">
+    <h2>📚 اعتمدنا في الأجوبة على</h2>
+    <ol>
+      <li><strong>صحيح البخاري وصحيح مسلم</strong> بأرقامهما الموثقة أعلاه.</li>
+      <li><strong>السنن الأربعة ومسند أحمد</strong> بتحقيقات الألباني.</li>
+      <li><strong>حصن المسلم</strong> للقحطاني، وفتاوى ابن باز وابن عثيمين واللجنة الدائمة في الأوقات والأحكام.</li>
+    </ol>
+    <p class="note">⚠️ إذا وجدت خطأً فأخبرنا لتصحيحه — فالحق أحق أن يُتّبع، والدين النصيحة.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <nav class="footer-nav" aria-label="روابط">
+      <a href="index.html">🏠 الرئيسية</a>
+      <a href="questions.html">❓ أسئلة عن الأذكار</a>
+    </nav>
+    <p>صُمم لوجه الله — انسخ وانشر ولك الأجر إن شاء الله</p>
+    <p class="small">قال ﷺ: «مثل الذي يذكر ربه والذي لا يذكر ربه مثل الحي والميت» — متفق عليه</p>
+  </div>
+</footer>
+
+<button id="toTop" title="العودة للأعلى">↑</button>
+
+<script>
+(function(){
+  // الثيم محفوظ مشترك مع الرئيسية
+  try{
+    if(localStorage.getItem("adhkar-theme")==="dark"){document.documentElement.setAttribute("data-theme","dark");}
+  }catch(e){}
+  var fs=null; try{fs=localStorage.getItem("adhkar-font");}catch(e){}
+  if(fs){document.documentElement.style.setProperty("--font-size",fs+"px");document.body.style.fontSize=fs+"px";}
+
+  function syncThemeBtn(){
+    var b=document.getElementById("toggleTheme");
+    if(document.documentElement.getAttribute("data-theme")==="dark"){b.textContent="☀️ نهاري";}else{b.textContent="🌙 ليلي";}
+  }
+  syncThemeBtn();
+  document.getElementById("toggleTheme").addEventListener("click",function(){
+    var cur=document.documentElement.getAttribute("data-theme");
+    if(cur==="dark"){document.documentElement.removeAttribute("data-theme");try{localStorage.setItem("adhkar-theme","light");}catch(e){}}
+    else{document.documentElement.setAttribute("data-theme","dark");try{localStorage.setItem("adhkar-theme","dark");}catch(e){}}
+    syncThemeBtn();
+  });
+  function curFont(){return parseInt(getComputedStyle(document.body).fontSize)||18;}
+  document.getElementById("fontPlus").addEventListener("click",function(){
+    var v=Math.min(24,curFont()+1);
+    document.documentElement.style.setProperty("--font-size",v+"px");document.body.style.fontSize=v+"px";
+    try{localStorage.setItem("adhkar-font",v);}catch(e){}
+  });
+  document.getElementById("fontMinus").addEventListener("click",function(){
+    var v=Math.max(14,curFont()-1);
+    document.documentElement.style.setProperty("--font-size",v+"px");document.body.style.fontSize=v+"px";
+    try{localStorage.setItem("adhkar-font",v);}catch(e){}
+  });
+
+  // بحث + تصنيف
+  var search=document.getElementById("fsearch");
+  var count=document.getElementById("faqCount");
+  var empty=document.getElementById("faqEmpty");
+  var activeCat="all";
+  document.querySelectorAll(".fcat").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      document.querySelectorAll(".fcat").forEach(function(x){x.classList.remove("active");});
+      btn.classList.add("active");activeCat=btn.dataset.cat;apply();
+    });
+  });
+  search.addEventListener("input",apply);
+  function apply(){
+    var q=(search.value||"").trim();
+    var items=document.querySelectorAll(".faq-item");
+    var shown=0;
+    items.forEach(function(it){
+      var okCat=(activeCat==="all"||it.dataset.cat===activeCat);
+      var okQ=(!q||it.textContent.indexOf(q)!==-1);
+      var show=okCat&&okQ;
+      it.style.display=show?"":"none";
+      if(show)shown++;
+    });
+    count.textContent="عرض "+shown+" من 30 سؤالاً";
+    empty.style.display=shown===0?"block":"none";
+  }
+
+  var toTop=document.getElementById("toTop");
+  window.addEventListener("scroll",function(){toTop.classList.toggle("show",window.scrollY>600);});
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+})();
+</script>
+</body>
+</html>
